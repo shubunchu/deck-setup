@@ -9,7 +9,7 @@
 
     The Deck has a 16:10 aspect ratio (1280x800 native resolution), but not all games support this (e.g., P3R). In this case, we need to set up a supported resolution to fall back on (1280x720). The above entries allow for us to select a virtual display of 1280x720 and 1280x800 @ 90 Hz, respectively.
 
-3. Download RTSS [[here](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/)]. This software will allow for us to cap the FPS of our host to 90 FPS, optimizing our stream performance. After downloading RTSS, install rtss-cli [[here](https://github.com/xanderfrangos/rtss-cli/releases/tag/v1.0.0)]. We use this to programatically access RTSS, and can automate the framerate limimting when establishing a stream connection (i.e., cap the framerate when streaming from Deck, and release the cap when disconnecting).
+3. Download RTSS [[here](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/)]. This software will allow for us to cap the FPS of our host to 90 FPS, optimizing our stream performance. After downloading RTSS, install rtss-cli [[here](https://github.com/xanderfrangos/rtss-cli/releases/tag/v1.0.0)]. We use this to programmatically access RTSS, and can automate the framerate limiting when establishing a stream connection (i.e., cap the framerate when streaming from Deck, and release the cap when disconnecting).
 
     1. After installing both, navigate to Sunshine (https://localhost:47990/).
     2. Within the header, select *Configuration*.
