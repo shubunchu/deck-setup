@@ -1,6 +1,6 @@
 ### Streaming setup
 
-1. Follow the guide [[here](https://www.reddit.com/r/SteamDeck/comments/19ahzxq/youre_streaming_your_games_wrong_let_me_show_you/)] to set up Moonlight + Sunshine. Skip steps 2 and 3, as the required software is already installed on the Deck. You just need to install the dependencies on your PC.
+1. Follow the guide [[here](https://www.reddit.com/r/SteamDeck/comments/19ahzxq/youre_streaming_your_games_wrong_let_me_show_you/)] to set up Moonlight + Sunshine.
 
 2. Follow the guide [[here](https://www.reddit.com/r/MoonlightStreaming/comments/rzpcpc/moonlight_streaming_without_monitor_no_dummy_plug/)] to set up a virtual display. This allows for us to stream games at 60+ FPS without having to keep our monitor awake. A video guide is [[here](https://www.youtube.com/watch?v=byfBWDnToYk)]. Edit the `option.txt` file to include the following entries:
 
